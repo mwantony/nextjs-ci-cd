@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwantony/nextjs-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwantony/nextjs-ci-cd/issues"
+  },
+  "homepage": "https://github.com/mwantony/nextjs-ci-cd#readme",
+  "dependencies": {
+    "next": "^13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

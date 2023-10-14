@@ -1,25 +1,18 @@
 {
-  "name": "nextjs-ci-cd",
+  "name": "06-github-actions-front-end",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mwantony/nextjs-ci-cd.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mwantony/nextjs-ci-cd/issues"
-  },
-  "homepage": "https://github.com/mwantony/nextjs-ci-cd#readme",
+  "author": "Mario Souto <13791385+omariosouto@users.noreply.github.com>",
+  "license": "MIT",
   "dependencies": {
-    "next": "^13.5.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "rm -rf build && next export && mv ./out ./build",
+    "start": "next start",
+    "lint": "next lint"  
   }
 }
